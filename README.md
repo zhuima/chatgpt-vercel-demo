@@ -88,7 +88,7 @@
 | `SENDKEY`                          | 使用 [Server 酱](https://sct.ftqq.com/sendkey) 推送帐号余额以及可用状态到微信，如果需要自行获取。推送时间为早上 8 点和晚上 8 点，在 vercel.json 文件中修改。如果 key 太多，超过 20 个，有可能失败。                     | 无                                                                                                                                                                                                              |
 | `SENDCHANNEL`                      | [Server 酱](https://sct.ftqq.com/sendkey) 的推送通道，默认微信服务号。                                                                                                                                                  | 9                                                                                                                                                                                                               |
 
-有两种设置方式
+有两种设置方式11111
 
 1. 将 `.env.example` 文件修改为 `.env`，在 `.env` 中设置。
 2. Vercel 中设置 `Environment Variables`。尽量使用这种方式，比较方便。会在下次部署时生效。
